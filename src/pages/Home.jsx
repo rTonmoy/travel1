@@ -3,8 +3,6 @@ import Banner from "../components/Banner/Banner";
 import AdvanceSearch from "../components/AdvanceSearch/AdvanceSearch";
 import Features from "../components/Features/Features";
 import { Container, Row, Col, Card } from "react-bootstrap";
-
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -78,7 +76,6 @@ const Home = () => {
       image: tour5,
       link: "tour-name",
       shortDes: "",
-      link: "/tour",
       location: "dehradun",
     },
     {
@@ -88,7 +85,6 @@ const Home = () => {
       image: tour4,
       link: "tour-name",
       shortDes: "",
-      link: "/tour",
       location: "Rishikesh",
     },
     {
@@ -98,7 +94,6 @@ const Home = () => {
       image: tour6,
       link: "tour-name",
       shortDes: "",
-      link: "/tour",
       location: "Mussoorie",
     },
     {
@@ -108,7 +103,6 @@ const Home = () => {
       image: tour7,
       link: "tour-name",
       shortDes: "",
-      link: "/tour",
       location: "Uttarkhashi",
     },
     {
@@ -118,7 +112,6 @@ const Home = () => {
       image: tour8,
       link: "tour-name",
       shortDes: "",
-      link: "/tour",
       location: "Manali",
     },
     {
@@ -128,7 +121,6 @@ const Home = () => {
       image: tour9,
       link: "tour-name",
       shortDes: "4 tours and activities",
-      link: "/tour",
       location: "Haridwar",
     },
   ];
@@ -199,7 +191,7 @@ const Home = () => {
               <a
                 href="tel:6398312365"
                 className="secondary_btn bounce"
-                rel="no"
+                rel="noreferrer"
               >
                 {" "}
                 Contact Us !
