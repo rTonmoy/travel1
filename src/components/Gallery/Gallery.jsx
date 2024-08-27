@@ -1,5 +1,5 @@
 import React from 'react'
-import Lightroom from 'react-lightbox-gallery'
+// import Lightroom from 'react-lightbox-gallery'
 import GalleryImg1 from "../../assets/images/gallery/g1.jpg"
 import GalleryImg3 from "../../assets/images/gallery/g3.jpg"
 import GalleryImg4 from "../../assets/images/gallery/g4.jpg"
@@ -50,7 +50,8 @@ const Gallery = () => {
         enableZoom:false,
     };
     return (
-        <Lightroom images={images} settings={settings} />
+        // <Lightroom images={images} settings={settings} />
+        <h1>hello</h1>
    );
 }
 
